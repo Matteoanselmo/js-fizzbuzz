@@ -41,4 +41,8 @@ for( let i = 1; i <100; i++){
     }
     newDiv.append(fizzBuzzButton);
     userContainer.append(newDiv);
+    fizzBuzzButton.addEventListener('click' , function(){
+        alert(`Hai scelto un numero sfortunato`);
+    });
 };
+
