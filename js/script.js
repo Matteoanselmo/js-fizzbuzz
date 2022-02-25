@@ -18,7 +18,7 @@
 // };
 
 let userContainer = document.getElementById('my-wrapper');
-for( let i = 1; i <100; i++){
+for( let i = 1; i <101; i++){
     //CREO LA VARIABILE CREATRICE DEL CONTENITORE DIV CHE ANDRO' A RIEMPIRE
     let newDiv = document.createElement('div');
     //DO LE CLASSI ALL CONTENITORE CREATO IN PRECEDENZA
